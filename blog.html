@@ -9,30 +9,32 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <!-- nav bar and logo -->
+        <div id="contain_all">
         <header>
        <div class="dropDown"> 
-            <button class="menuIcon" onclick="dropDownMenu()">menu</button> 
+            <button class="menuIcon" onclick="toggleMenu()">menu</button> 
                     <ul class="menuContent" id="myDropDown">
                         <li><a href="index.html">home</a></li>
                         <li><a href="about.html">Behind the code</a></li>
                         <li><a href="contact.html">Let's talk!</a></li>
-                        <li><a href="blog.html">blog</a></li>
+                        <li><a href="blog.html" class="active">blog</a></li>
                         <li><a href="projects.html">look at this!</a></li>
                     </ul>
 		</div>
-        <div class="banner">
+        <div id="title" class="content">
                 <h1 class="logo">sutton bonte</h1>
                 <p class="logoSub">almost a developer</p>
         </div>   	
 
 	</header>
 		<h2>Blog</h2>
+        <p>Welcome to the blog section of my portfolio. This space is where I share thoughts about web development, design decisions, and lessons learned while building projects. Sometimes the posts will explore technical ideas like responsive layouts, performance, or accessibility. Other times they may highlight experiments, small tools, or behind the scenes notes from ongoing work. The goal is simple: document progress, reflect on challenges, and share practical insights that might help other developers or curious readers. More articles are coming soon, but for now this placeholder keeps the page from feeling empty while new ideas are being written and prepared.</p>
         
 		
 	</section> 
     
         
 	<script src="./scripts.js"></script>
+    </div>
     </body>
 </html>

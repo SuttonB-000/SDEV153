@@ -9,16 +9,16 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <!-- nav bar and logo -->
+    <div id="contain_all">
         <header>
        <div class="dropDown"> 
-            <button class="menuIcon" onclick="dropDownMenu()">menu</button> 
+            <button class="menuIcon" onclick="toggleMenu()">menu</button> 
                     <ul class="menuContent" id="myDropDown">
                         <li><a href="index.html">home</a></li>
                         <li><a href="about.html">Behind the code</a></li>
                         <li><a href="contact.html">Let's talk!</a></li>
                         <li><a href="blog.html">blog</a></li>
-                        <li><a href="projects.html">look at this!</a></li>
+                        <li><a href="projects.html" class="active">look at this!</a></li>
                     </ul>
 		</div>
         <div class="banner">
@@ -28,9 +28,10 @@
 
 	</header>
 		<h2>Notable Projects</h2>
-        
+        <p>This page highlights a selection of projects I have completed while developing my skills in web design and development. Each project represents an opportunity to practice problem solving, experiment with new techniques, and refine my approach to building clean, responsive websites. From layout structure and styling to small interactive features, every piece of work reflects a step forward in my learning process. As I continue creating new projects, this section will grow to showcase additional work, improvements, and lessons learned along the way.</p>
 	</section> 
         
 	<script src="./scripts.js"></script>
+    </div>
     </body>
 </html>
