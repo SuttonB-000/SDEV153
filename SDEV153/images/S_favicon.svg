@@ -1,0 +1,12 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Light background -->
+  <rect width="64" height="64" rx="16" fill="#F4FBF7"></rect>
+  
+  <!-- Soft border -->
+  <rect x="2" y="2" width="60" height="60" rx="14" stroke="#A3C9A8" stroke-width="2" fill="none"></rect>
+  
+  <!-- Monogram -->
+  <text x="50%" y="54%" text-anchor="middle" dominant-baseline="middle" font-family="Manrope, Inter, sans-serif" font-size="30" font-weight="600" fill="#4F7C6E" letter-spacing="1">
+    S
+  </text>
+</svg>
