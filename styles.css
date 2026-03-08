@@ -44,11 +44,13 @@ body {
 .logo {
     font-family: 'Garbata';
     margin: 0;
+    display: inline;
 }
 
 .logoSub {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
+    display: inline;
 }
 
 /* call-to-action button */
