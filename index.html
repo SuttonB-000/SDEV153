@@ -1,76 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Sutton Bonte</title>
-	<link rel="stylesheet" href="styles.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
-	<!-- Google font inter -->
-			<link rel="preconnect" href="https://fonts.googleapis.com">
-			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-			<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-			<link rel="icon" type="image/svg+xml" href="./images/S_favicon.svg">
+    <meta charset="UTF-8">
+    <title>Sutton Bonte</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <!-- Google font inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="./images/S_favicon.svg">
 </head>
 
 <body>
-	<div id="contain_all">
-		<header>
-		<div class="dropDown">
-			<button class="menuIcon" onclick="dropDownMenu()">menu</button> 
-					<ul class="menuContent" id="myDropDown">
-						<li><a href="index.html">home</a></li>
-						<li><a href="about.html">Behind the code</a></li>
-						<li><a href="contact.html">Lets talk!</a></li>
-						<li><a href="blog.html">blog</a></li>
-						<li><a href="projects.html">look at this!</a></li>
-					</ul>
-		</div>
-		<div id="title" class="content">
-			<h1 class="logo">sutton bonte</h1>
-			<img src="images/sutton.JPG" alt=" a man in black hoodie and hat, with red beard and large glasses." id="Sutton_headshot">
-			<!-- <p> Almost a developer</p>  -->
-		</div>
-			<div id="c2a">
-				<button type="button"><a href="#email">Let's Talk</a></button>
-			</div>
+    <div id="contain_all">
+        <header>
+            <div class="dropDown">
+                <button class="menuIcon" onclick="dropDownMenu()">menu</button> 
+                <ul class="menuContent" id="myDropDown">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">Behind the code</a></li>
+                    <li><a href="contact.html">Lets talk!</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="projects.html">look at this!</a></li>
+                </ul>
+            </div>
 
-	</header>
-	<main class="content">
-	<section id="webDev" class="heading">
-		<h2 class = "heading">Web Design</h2>
-			<p> I design responsive, user-focues web experiences that balance visual clarity with intuitive interaction. Explore my projects to see how I bring my ideas to life on the web.
-			</p>
-	</section>
+            <div id="title" class="content">
+                <h1 class="logo">sutton bonte</h1>
+                <img src="images/sutton.JPG" alt="A man in black hoodie and hat, with red beard and large glasses." id="Sutton_headshot">
+            </div>
 
-	<section id="python" class="heading">
-		<h2>Python Devlopment</h2>
-			<p> Confident in python development, I build reliable, well-structured solutions with clarity and purpose. Explore my projects to see how I turn ideas into working code.</p>
-	</section>
+            <div id="c2a">
+                <a class="button" href="#contact">Let's Talk</a>
+            </div>
+        </header>
 
-	<section id="contact">
-		<!-- Contact form -->
-	<h2 id="contact" class = "heading">Let's Talk!</h2>
-		<fieldset>
-			<form>
-				
-				<h3>Does not go anywhere</h3>
+        <main class="content">
+            <section id="webDev" class="heading">
+                <h2 class="heading">Web Design</h2>
+                <p>I design responsive, user-focused web experiences that balance visual clarity with intuitive interaction. Explore my projects to see how I bring my ideas to life on the web.</p>
+            </section>
 
-				<label for="email">Email:</label>
-				<input class="text_box" type="email" id="email" name="email" required> 
+            <section id="python" class="heading">
+                <h2>Python Development</h2>
+                <p>Confident in Python development, I build reliable, well-structured solutions with clarity and purpose. Explore my projects to see how I turn ideas into working code.</p>
+            </section>
 
-				<label for="name">Name:</label>
-				<input class="text_box" type="text" id="name" required>
+            <section id="contact">
+                <h2 class="heading">Let's Talk!</h2>
+                <fieldset>
+                    <form>
+                        <h3>Does not go anywhere</h3>
 
-				<label for="message">Type your message here:</label>
-				<textarea  class ="text_box" id="message" name="comment" rows="5" col="60"></textarea>
+                        <label for="email">Email:</label>
+                        <input class="text_box" type="email" id="email" name="email" required> 
 
-				<input class="text_box" type="submit" value="submit" class="button">
+                        <label for="name">Name:</label>
+                        <input class="text_box" type="text" id="name" required>
 
-			</form>
-		</fieldset>
-	</section>
-	</main>
-	<script src="./scripts.js"></script>
-</div>
+                        <label for="message">Type your message here:</label>
+                        <textarea class="text_box" id="message" name="comment" rows="5" cols="60"></textarea>
+
+                        <input class="text_box" type="submit" value="Submit">
+                    </form>
+                </fieldset>
+            </section>
+        </main>
+
+        <script src="./scripts.js"></script>
+    </div>
 </body>
-
 </html>
